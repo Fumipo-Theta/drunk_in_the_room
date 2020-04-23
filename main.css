@@ -1,5 +1,6 @@
 #wrapper-app{
     display: flex;
+    height: 95vh;
 }
 
 .wrapper.column{
@@ -14,14 +15,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-height: 75vh;
+    width: 350px;
 }
 
 #wrapper-member_input{
-    padding-inline-start: 0;
+    overflow-y: scroll;
+}
+
+#venue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .wrapper.room{
-
+    
     box-shadow: 0 5px 6px 1px rgba(0,0,0,0.3);
     margin: 20px;
     padding: 10px 20px;
