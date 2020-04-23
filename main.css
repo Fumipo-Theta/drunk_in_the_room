@@ -1,0 +1,69 @@
+#wrapper-app{
+    display: flex;
+}
+
+.wrapper.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 20px 30px;
+}
+
+.wrapper.members{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wrapper-member_input{
+    padding-inline-start: 0;
+}
+
+.wrapper.room{
+
+    box-shadow: 0 5px 6px 1px rgba(0,0,0,0.3);
+    margin: 20px;
+    padding: 10px 20px;
+    width: 200px;
+
+}
+
+ul.room {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.field-member_input{
+    margin: 10px 5px;
+}
+
+input {
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid #bbbbff;
+    padding-inline-start: 0.5em;
+}
+
+.field-member_input > input {
+    margin: 0 10px;
+}
+
+
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #efefef;
+    background-color: #2966d6;
+}
+
+button.delete{
+    width: 50px;
+    height: 25px;
+    color: #eeeeee;
+    font-size: 0.75em;
+    background-color: #ee8888;
+}
