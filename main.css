@@ -20,7 +20,7 @@
 }
 
 #wrapper-member_input{
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #venue{
