@@ -30,6 +30,7 @@ function main() {
         }
     )
 
-    window.onload = e => main()
+
 }
 
+window.onload = e => main()
