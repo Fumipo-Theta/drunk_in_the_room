@@ -33,4 +33,3 @@ function main() {
 
 }
 
-window.onload = e => main()
