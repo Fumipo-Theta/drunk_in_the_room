@@ -4,5 +4,5 @@ export const memberAddButton = document.getElementById("button-add_member")
 
 export const shuffleButton = document.getElementById("button-naive_shuffle")
 
-const roomNumInput = document.getElementById("input-room_num")
-const venue = document.getElementById("venue")
+export const roomNumInput = document.getElementById("input-room_num")
+export const venue = document.getElementById("venue")
