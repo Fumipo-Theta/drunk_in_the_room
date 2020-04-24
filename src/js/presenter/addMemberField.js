@@ -15,7 +15,8 @@ const addMemberField = containerDom => e => {
     const listItemTemplate = `<input type="text" autofocus tabindex=0 placeholder="name">`
     li.innerHTML = listItemTemplate
     li.appendChild(deleteButton)
-    containerDom.insertBefore(li)
+
+    containerDom.insertBefore(li, containerDom.children[0])
 }
 
 export default addMemberField
