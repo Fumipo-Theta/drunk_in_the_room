@@ -4,7 +4,7 @@ import addMemberField from "./src/js/presenter/addMemberField.js"
 import collectMembers from "./src/js/controller/collectMembersFromFields.js"
 import cleanUpVenue from "./src/js/presenter/cleanUpVenue.js"
 import moveIntoRooms from "./src/js/presenter/moveIntoRooms.js"
-import shuffle from "./src/util/naiveShuffle.js"
+import shuffle from "./src/js/util/naiveShuffle.js"
 
 function main() {
 
